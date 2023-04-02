@@ -12,24 +12,37 @@ public class Languages {
     private String image;
     private String ranking;
     
+    
     public Languages(String title, String image, String ranking) {
         this.title = title;
         this.image = image;
         this.ranking = ranking;
     }
-
+    
     public String getId() {
         return id;
+    }
+    
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getTitle() {
         return title;
     }
+    
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public String getImage() {
         return image;
     }
-
+    
+    public void setRanking(String ranking) {
+        this.ranking = ranking;
+    }
+    
     public String getRanking() {
         return ranking;
     }
