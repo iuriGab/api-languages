@@ -1,8 +1,9 @@
 package br.com.alura.apilanguages;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-// @Document(name = "")
+@Document(collection = "mainsLanguages")
 public class Languages {
     
     @Id
